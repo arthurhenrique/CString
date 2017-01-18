@@ -40,9 +40,9 @@ int lengthStr(const char *s)
 
 int main(int argc, char *argv[])
 {
-	printf("%d %d %d \n", length("100"),
-						  length(100),
-						  lengthStr("arthurhenrique"));
+	printf("%d %d %d \n", length("100")
+			    , length(100)
+			    , lengthStr("arthurhenrique"));
 
 	return 0;
 }
